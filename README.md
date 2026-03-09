@@ -1,5 +1,13 @@
 # copilot-library-api-demo
+## Development workflow
+```mermaid
+flowchart LR
 
+A[AIに指示] --> B[設計をmdにまとめる]
+B --> C[mdに沿って実装]
+C --> D[差分レビュー]
+D --> A
+```
 Copilot を使って、要件整理 → API設計 → 実装 → テスト までを  
 小さな単位で進める流れを再現できるようにした、図書貸出管理 REST API のデモです。  
 画面は持たず、成果物と進め方をリポジトリ上で追える構成にしています。
