@@ -1,0 +1,35 @@
+# Maven
+target/
+
+# (Optional) Maven Wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.properties
+!/.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.serena/
+*.iml
+.classpath
+.project
+.settings/
+
+# IntelliJ (misc)
+*.ipr
+*.iws
+
+# Eclipse (misc)
+.factorypath
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# AI logs (keep sanitized versions only)
+docs/ai-logs/raw/
